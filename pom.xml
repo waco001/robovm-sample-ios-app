@@ -9,6 +9,7 @@
   <name>RoboVM Sample iOS App</name>
 
   <packaging>jar</packaging>
+
   <version>1.0-SNAPSHOT</version>
 
   <build>
