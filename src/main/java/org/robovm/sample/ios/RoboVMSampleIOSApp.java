@@ -22,7 +22,7 @@ public class RoboVMSampleIOSApp extends UIApplicationDelegate.Adapter {
         final UIButton button = UIButton.fromType(UIButtonType.RoundedRect);
         button.setFrame(new CGRect(115.0f, 121.0f, 91.0f, 37.0f));
         button.setTitle("Click me!", UIControlState.Normal);
-
+        button.setAnimationsEnabled(false);
         button.addOnTouchUpInsideListener(new UIControl.OnTouchUpInsideListener() {
             @Override
             public void onTouchUpInside(UIControl control, UIEvent event) {
